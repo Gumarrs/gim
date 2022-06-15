@@ -28,7 +28,7 @@ body {
   background-image: url("/auth-background.svg");
   background-position: top right;
   background-repeat: no-repeat;
-  background-color: #1E26FF;
+  background-color: #1A2E39;
   background-size: 250px;
   height: 350px;
 }
@@ -37,7 +37,7 @@ body {
   background-image: url("/auth-background.svg");
   background-position: top right;
   background-repeat: no-repeat;
-  background-color: #1E26FF;
+  background-color: #1A2E39;
   background-size: 250px;
   height: 100px;
 }
@@ -51,6 +51,16 @@ body {
   width: 100%;
   height: 900px;
   background-image: url("/bg-image.png");
+  background-color: #1A2E39;
+}
+.header__bg_login {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
   background-color: #1A2E39;
 }
 
@@ -116,7 +126,7 @@ footer {
 .testimonial-user.active {
   opacity: 1;
   border: 5px solid #fff;
-  box-shadow: 0 0 0 1px #1E26FF;
+  box-shadow: 0 0 0 1px #1A2E39;
 }
 
 .list-check li {
@@ -138,12 +148,6 @@ footer {
   opacity: 0.3;
 }
 
-.auth-page {
-  background-color: #1E26FF;
-  background-image: url("/auth-background.svg");
-  background-position: top right;
-  background-repeat: no-repeat;
-}
 .footer-bg{
   background-image: url("/bg_footer.png");
   width: 100%;

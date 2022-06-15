@@ -20,9 +20,9 @@
               </p>
               <button
                 @click="$router.push({ path: '/' })"
-                class="block bg-green-button text-white font-semibold px-16 py-3 text-xl "
+                class="block bg-transparent border border-green-400   border hover:bg-white hover:bg-opacity-25 text-green-300 font-light text-center px-4 py-2 text-xl "
               >
-                Download App NOW
+                Join Membership
               </button>
             </div>
           </div>
@@ -54,9 +54,9 @@
         </div>
       </div>
     </section>
-    <section id="news" class="pt-36 pb-30 bg-slate-100 mb-12">
+    <section id="news" class="pt-36 pb-30 bg-slate-100 mb-24">
       <div class="container">
-        <div class="w-full px-30">
+        <div class="w-full px-24">
           <div class="max-w-xl mx-auto text-center">
             <h1 class="font-bold text-4xl mb-10">Newsletter</h1>
           </div>
