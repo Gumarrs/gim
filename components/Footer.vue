@@ -1,7 +1,7 @@
 <template>
          <footer class="footer-bg py-20 text-white text-lg ">
-        <div class="container mx-auto">
-          <div class="sm:flex mb-4">
+        <div class="container mx-auto ">
+          <div class="sm:flex mb-4 mr-12 ml-24">
             <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
               <img src="/ph_barbell.png" alt="" class="mb-3 stroke-slate-900" />
               <p class="font-light">
@@ -35,7 +35,10 @@
              <ul class="mb-3"><img src="/ABadge.png" alt="">
               </ul>
             </div>
+
           </div>
+
         </div>
+
       </footer>
 </template>

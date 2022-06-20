@@ -1,5 +1,5 @@
 <template>
-          <header class="flex items-center">
+          <header class="flex items-center mr-12 ml-24">
             <div style="height: 54px" class="pr-5">
               <img src="/ph_barbell.png" alt="logo" class="h-full" />
             </div>

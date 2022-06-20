@@ -4,7 +4,7 @@
         <div class="header__bg "></div>
         <div class="container mx-auto relative">
           <Navbar />
-                    <div class="flex items-center pt-10 px-5 md:px-0">
+                    <div class="flex items-center pt-10 px-5 md:px-0 mr-12 ml-24">
             <div class="w-1/2">
               <h1 class="text-7xl text-white mt-40 mb-5">
                 NEVER GIVE UP <br />
@@ -28,6 +28,123 @@
           </div>
         </div>
       </section>
+      <section id="membership"  class="pt-36 pb-30 bg-slate-100 mb-24">
+        <div class="container">
+
+          <div class="flex flex-row ">
+              <div class="w-1/2"> <img src="/image2.png" alt=""></div>
+              <div class="w-1/4 pt-16" style="background-color:#357E7C;">
+              <div class="text-center text-white">
+ <h2 class=" mb-2">Bronze</h2>
+               <h2 class=" text-2xl mb-6">Rp. 299.000</h2>
+              <p class="font-light">Bronze membership is <br> the best package offer for you. <br> The advantages of this package are:<br>
+</p>
+<ol class="pl-2 mt-1 font-light">
+  <li>1. The duration of membership is 1 month.</li>
+  <li>2. Unlocked online and offline class features.</li>
+  <li>3. Free access to online and offline class bookings for the duration of the active membership.</li>
+</ol>
+<button class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button>
+              </div>  
+               </div>
+              <div class="w-1/4 pt-16" style="background-color: #429D9B;">
+                            <div class="text-center text-white">
+ <h2 class=" mb-2">Silver</h2>
+               <h2 class=" text-2xl mb-6">Rp. 599.000</h2>
+              <p class="font-light">Bronze membership is <br> the best package offer for you. <br> The advantages of this package are:<br>
+</p>
+<ol class="pl-2 mt-1 font-light">
+  <li>1. The duration of membership is 1 month.</li>
+  <li>2. Unlocked online and offline class features.</li>
+  <li>3. Free access to online and offline class bookings for the duration of the active membership.</li>
+</ol>
+<button class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button>
+              </div>
+              </div>
+                            <div class="w-1/4 pt-16" style="background-color: #4FBDBA;">
+                                                 <div class="text-center text-white">
+ <h2 class=" mb-2">Gold</h2>
+               <h2 class=" text-2xl mb-6">Rp. 990.000</h2>
+              <p class="font-light">Bronze membership is <br> the best package offer for you. <br> The advantages of this package are:<br>
+</p>
+<ol class="pl-2 mt-1 font-light">
+  <li>1. The duration of membership is 1 month.</li>
+  <li>2. Unlocked online and offline class features.</li>
+  <li>3. Free access to online and offline class bookings for the duration of the active membership.</li>
+</ol>
+<button class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button>
+              </div>   
+                            </div>
+          </div>
+        </div>
+      </section>
+    <section id="recomended" class="pb-30 bg-slate-100 mb-24 pl-24">
+      <div class="container">
+       <div class="w-full p-auto">
+          <div class="max-w-xl mx-auto text-center">
+            <h1 class="font-bold text-4xl mb-10 mt-24">Recomended Class</h1>
+          </div>
+        </div>
+          <div class="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 space-y-4 md:space-y-0">
+    <div class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+      <div class="relative">
+        <img class="w-full rounded-xl" src="/image11.png" />
+        <!-- <p class="absolute top-0 bg-green-400 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">Online Class</p> -->
+      </div>
+      <h1 class="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">Boxing</h1>
+      <div class="my-4">
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </span>
+          <p> 16:40</p>
+        </div>
+        <button class="mt-24 text-xl w-full text-white bg-green-button py-2 rounded-xl shadow-lg">Book</button>
+      </div>
+    </div>
+    <div class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+      <div class="relative">
+        <img class="w-full rounded-xl" src="/image12.png" alt="Colors" />
+        <!-- <p class="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">$12</p>
+        <p class="absolute top-0 right-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-tr-lg rounded-bl-lg">%20 Discount</p> -->
+      </div>
+      <h1 class="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">Pilates</h1>
+      <div class="my-4">
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </span>
+          <p> 18:20</p>
+        </div>
+
+        <button class="mt-24 text-xl w-full text-white bg-green-button py-2 rounded-xl shadow-lg">Book</button>
+      </div>
+    </div>
+    <div class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500">
+      <div class="relative">
+        <img class="w-full rounded-xl" src="/image13.png" alt="Colors" />
+        <!-- <p class="absolute top-0 bg-yellow-300 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">$50</p> -->
+      </div>
+      <h1 class="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">Muaythai</h1>
+      <div class="my-4">
+        <div class="flex space-x-1 items-center">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </span>
+          <p> 17:00</p>
+        </div>
+        <button class="mt-24 text-xl w-full text-white bg-green-button py-2 rounded-xl shadow-lg">Book</button>
+      </div>
+    </div>
+  </div>
+      </div>
+    </section>
     <section id="content" class="pt-36 pb-30">
       <div class="container">
         <div class="flex flex-wrap pt-36 mx-10">

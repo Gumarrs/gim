@@ -4,8 +4,8 @@
         <div class="container mx-auto relative pt-5">
           <Navbar />
         </div>
-            <section id="form" class="pt-36 pb-30">
-      <div class="flex justify-center items-center">
+            <section id="form" class="pt-36 pb-30 ">
+      <div class="flex justify-center items-center bg-white shadow-lg">
                 <div class="w-auto md:w-2/4 lg:w-2/3 flex justify-center items-center">
           <div class="w-full lg:w-1/2 px-10 lg:px-0 ">
             <h2 class="font-normal mb-6 text-3xl mx-auto text-center ">
@@ -77,8 +77,5 @@ export default {
 <style scoped>
       .hitam {
   background-color: #1A2E39;
-      }
-      .white_bg{
-        background-color: #F8F8F8;
       }
     </style>
