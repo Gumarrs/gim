@@ -9,7 +9,7 @@
                 <div class="w-auto md:w-2/4 lg:w-2/3 flex justify-center items-center">
           <div class="w-full lg:w-1/2 px-10 lg:px-0 ">
             <h2 class="font-normal mb-6 text-3xl mx-auto text-center ">
-              Login
+              Sign Up
             </h2>
                         <div class="mb-6">
               <div class="mb-4">
@@ -102,8 +102,9 @@
 </template>
 <script>
 export default {
-    layout: 'auth'
+  auth: false,
 }
+</script>
 </script>
 <style scoped>
       .hitam {

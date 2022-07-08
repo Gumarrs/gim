@@ -63,6 +63,21 @@ body {
   height: 100px;
   background-color: #1A2E39;
 }
+.header_detail {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background-color: #1A2E39;
+}
+.image_kelas{
+  object-fit: cover;
+  width: 100%;
+  height: 535px;
+}
 
 .cta-clip {
   position: relative;

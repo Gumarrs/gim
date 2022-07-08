@@ -3,7 +3,7 @@
       <section class="landing-hero pt-5 ">
         <div class="header__bg "></div>
         <div class="container mx-auto relative">
-          <Navbar />
+          <Header />
                     <div class="flex items-center pt-10 px-5 md:px-0 mr-12 ml-24">
             <div class="w-1/2">
               <h1 class="text-7xl text-white mt-40 mb-5">
@@ -20,7 +20,7 @@
               </p>
               <button
                 @click="$router.push({ path: '/' })"
-                class="block bg-teal-300 border border-white   border hover:bg-transparent hover:bg-opacity-25 text-white  text-center px-8 py-2 text-xl rounded-full "
+                class="block bg-transparent border border-green-400   border hover:bg-white hover:bg-opacity-25 text-green-300 font-light text-center px-4 py-2 text-xl "
               >
                 Join Membership
               </button>
@@ -38,10 +38,6 @@
 <script>
 export default {
   auth : false,
-   async asyncData({ $axios }) {
-    const memberships = await $axios.$get('/api/v1/membership/list')
-    return { memberships }
-  },
-  
+
 }
 </script>

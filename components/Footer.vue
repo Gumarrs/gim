@@ -5,8 +5,7 @@
             <div class="sm:w-1/2 sm:mt-0 mt-8 h-auto">
               <img src="/ph_barbell.png" alt="" class="mb-3 stroke-slate-900" />
               <p class="font-light">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis laudantium, ut saepe minima perferendis et temporibus facilis debitis enim cumque beatae omnis asperiores nobis. Pariatur ratione distinctio rerum quia esse!
-
+               Gymthirty is the leading healthy lifestyle application in Indonesia that provides easy access and solutions for your healthy lifestyle. Join the membership, choose the appropriate class, and become healthier with your Healthy Life Friend.
               </p>
               
             </div>
@@ -29,13 +28,17 @@
             </div>
             <div class="sm:w-1/4 h-auto">
               <div class="mb-8 font-bold">Download Apps</div>
-              <ul
+              <table>
+                <tr>
+                  <td><ul
                  class="mb-3"><img src="/Badge.png" alt="">
-              </ul>
-             <ul class="mb-3"><img src="/ABadge.png" alt="">
-              </ul>
+              </ul></td>
+                  <td><ul
+                 class="mb-3"><img src="/ABadge.png" alt="">
+              </ul></td>
+                </tr>
+              </table>
             </div>
-
           </div>
 
         </div>
