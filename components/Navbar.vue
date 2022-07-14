@@ -1,5 +1,5 @@
 <template>
-          <header class="flex items-center mr-12 ml-24">
+          <div class="flex items-center mr-12 ml-24">
             <div style="height: 54px" class="pr-5">
               <img src="/ph_barbell.png" alt="logo" class="h-full" />
             </div>
@@ -33,7 +33,7 @@
                 >
               </li>
             </ul>
-            <ul class="flex ml-auto items-center mt-2"  v-if="!this.$store.state.auth.loggedIn">
+            <ul class="flex ml-auto items-center mt-2"  v-if="!this.$store.state.auth"> 
               <li>
                 <nuxt-link
                   to="/login"
@@ -104,7 +104,7 @@
         </ul>
       </div>
             </div>
-          </header>
+          </div>
 </template>
 
 <style scoped>
@@ -118,6 +118,7 @@ export default {
   methods: {
     async logout() {
       await this.$auth.logout()
+      this.$router.push('/')
     },
   },
 }

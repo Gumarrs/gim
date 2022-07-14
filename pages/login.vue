@@ -1,7 +1,7 @@
 <template>
 <div>
         <div class="container mx-auto relative pt-5">
-          <Navbar2 />
+          <Header />
         </div>
             <section id="form" class="pt-36 pb-30 ">
 
@@ -97,6 +97,7 @@ export default {
       try{
         let response = await this.$auth.loginWith('local', {data: this.login})
         this.$auth.setUser(response.data.data)
+        this.$router.push('/user')
         console.log(response)
       }catch(error){
         console.log(error)

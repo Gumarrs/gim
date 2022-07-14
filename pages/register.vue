@@ -20,6 +20,7 @@
                   type="text"
                   class="auth-form "
                   placeholder="Enter username"
+                  v-model="register.name"
                 />
               </div>
             </div>
@@ -32,6 +33,7 @@
                   type="email"
                   class="auth-form "
                   placeholder="Enter Email"
+                   v-model="register.email"
                 />
               </div>
             </div>
@@ -44,10 +46,11 @@
                   type="Tel"
                   class="auth-form "
                   placeholder="Enter phone number"
+                   v-model="register.phone"
                 />
               </div>
             </div>
-                        <div class="mb-6">
+                                    <div class="mb-6">
               <div class="mb-4">
                 <label class="font-normal text-lg  block mb-3"
                   >Password</label
@@ -56,25 +59,15 @@
                   type="password"
                   class="auth-form "
                   placeholder="Enter your password"
-                />
-              </div>
-            </div>
-                                    <div class="mb-6">
-              <div class="mb-4">
-                <label class="font-normal text-lg  block mb-3"
-                  >Confirm Password</label
-                >
-                <input
-                  type="password"
-                  class="auth-form "
-                  placeholder="Re-Enter your password"
+                   v-model="register.password"
+                   @keyup.enter="userRegister"
                 />
               </div>
             </div>
             <div class="mb-6">
               <div class="mb-4">
                 <button
-                  @click="$router.push({ path: '/' })"
+                   @click="userRegister"
                   class="block w-full text-white bg-green-button  font-semibold px-6 py-4 text-lg rounded-full"
                 >
                   Register
@@ -102,9 +95,31 @@
 </template>
 <script>
 export default {
-  auth: false,
+  $auth:false,
+  data() {
+    return {
+      register: {
+        name: '',
+        email: '',
+        phone: '',
+        password: '',
+      },
+    }
+  },
+  methods: {
+    async userRegister() {
+      try {
+        let response = await this.$axios.post('/api/v1/auth/register', this.register)
+        console.log(response.data.data.token)
+        this.$auth
+          .setUserToken(response.data.data.token)
+          .then(() => this.$router.push({ path: '/login' }))
+      } catch (err) {
+        console.log(err)
+      }
+    },
+  },
 }
-</script>
 </script>
 <style scoped>
       .hitam {

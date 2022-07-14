@@ -3,7 +3,7 @@
       <section class="landing-hero pt-5 ">
         <div class="header__bg "></div>
         <div class="container mx-auto relative">
-          <Header />
+          <Navbar />
                     <div class="flex items-center pt-10 px-5 md:px-0 mr-12 ml-24">
             <div class="w-1/2">
               <h1 class="text-7xl text-white mt-40 mb-5">
@@ -36,8 +36,11 @@
       </div>
 </template>
 <script>
-export default {
-  auth : false,
-
+export default{
+  computed: {
+     UuerLogin(){
+       return this.$auth.loggedIn
+      }
+  }
 }
 </script>
