@@ -39,7 +39,9 @@
  <h2 class=" mb-2">{{membership.type}}</h2>
                <h2 class=" text-2xl mb-6">Rp. {{membership.price}}</h2>
               <p class="font-light">{{membership.description}}</p>
-<button class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button>
+              <nuxt-link
+           :to="`user/membership/${membership.id}`">
+<button  class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button> </nuxt-link>
               </div>  
                </div>
           </div>
@@ -65,16 +67,19 @@
               /> -->
         <!-- <p class="absolute top-0 bg-green-400 text-gray-800 font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">Online Class</p> -->
       </div>
-      <h1 class="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">{{kelas.classname}}</h1>
+  
       <div class="my-4">
         <div class="flex space-x-1 items-center">
+           <p class="mr-52">{{kelas.clastype}}</p>
           <span>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-400 mb-1.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
           </span>
+         
           <p> {{kelas.clock}}</p>
         </div>
+            <h1 class="mt-4 text-gray-800 text-2xl font-bold cursor-pointer">{{kelas.classname}}</h1>
         <nuxt-link
            :to="`user/kelas/${kelas.id}`">
         <button class="mt-24 text-xl w-full text-white bg-green-button py-4 px-10 rounded-xl shadow-lg">Book</button>
@@ -156,7 +161,7 @@ export default{
     return { kelass,newsletters,memberships }
   },
   computed: {
-     UuerLogin(){
+     UserLogin(){
        return this.$auth.loggedIn
       }
   }

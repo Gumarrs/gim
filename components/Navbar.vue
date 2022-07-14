@@ -1,14 +1,52 @@
 <template>
-          <div class="flex items-center mr-12 ml-24">
+<div class="blur-lg">
+          <div class="flex items-center  mr-12 ml-24" >
             <div style="height: 54px" class="pr-5">
               <img src="/ph_barbell.png" alt="logo" class="h-full" />
             </div>
-            <ul class="flex items-center ">
+            <ul class="flex items-center " v-if="!this.$store.state.auth.user">
               <li>
                 <a
                   class="text-white hover:text-teal-500 text-lg px-8 py-3"
                   href="/"
                   >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white hover:text-teal-500 text-lg px-8 py-3"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white hover:text-teal-500 text-lg px-8 py-3"
+                  href="#"
+                  >Content</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-white hover:text-teal-500 text-lg px-8 py-3"
+                  href="#"
+                  >News</a
+                >
+              </li>
+            </ul>
+                <ul class="flex items-center " v-else>
+              <li>
+                <a
+                  class="text-white hover:text-teal-500 text-lg px-8 py-3"
+                  href="/"
+                  >Home</a
+                >
+              </li>
+                    <li>
+                <a
+                  class="text-white hover:text-teal-500 text-lg px-8 py-3"
+                  href="/user/listclass"
+                  >Classes</a
                 >
               </li>
               <li>
@@ -105,6 +143,8 @@
       </div>
             </div>
           </div>
+          </div>
+          
 </template>
 
 <style scoped>

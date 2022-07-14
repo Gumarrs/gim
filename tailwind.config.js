@@ -13,6 +13,9 @@ module.exports = {
         "purple-hover-stroke": "#8286FF",
         "purple-progress": "#3B41E3",
       },
+      blur: {
+        xs: '2px',
+      },
       borderRadius: {
         20: "20px",
       },
