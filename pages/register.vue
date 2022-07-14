@@ -113,8 +113,10 @@ export default {
         console.log(response.data.data.token)
         this.$auth
           .setUserToken(response.data.data.token)
-          .then(() => this.$router.push({ path: '/login' }))
+          alert('Akun Berhasil Di Daftarkan')
+          .then(() => this.$router.push({ path: '/' }))
       } catch (err) {
+        alert(err)
         console.log(err)
       }
     },

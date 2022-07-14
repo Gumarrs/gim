@@ -15,7 +15,7 @@
   <li>2. Unlocked online and offline class features.</li>
   <li>3. Free access to online and offline class bookings for the duration of the active membership.</li>
 </ol>
-<button class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button>
+<button @click="$router.push({ path: '/login' })"  class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-12">  READ MORE ></button>
               </div>  
                </div>
               <div class="w-1/4 pt-16" style="background-color: #429D9B;">
@@ -29,7 +29,7 @@
   <li>2. Unlocked online and offline class features.</li>
   <li>3. Free access to online and offline class bookings for the duration of the active membership.</li>
 </ol>
-<button class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button>
+<button @click="$router.push({ path: '/login' })"  class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-12">READ MORE ></button>
               </div>
               </div>
                             <div class="w-1/4 pt-16" style="background-color: #4FBDBA;">
@@ -43,7 +43,7 @@
   <li>2. Unlocked online and offline class features.</li>
   <li>3. Free access to online and offline class bookings for the duration of the active membership.</li>
 </ol>
-<button class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-1">READ MORE ></button>
+<button @click="$router.push({ path: '/login' })"  class="border-soli bg-transparent border border-white font-light py-1 px-5 mt-12">READ MORE ></button>
               </div>   
                             </div>
           </div>

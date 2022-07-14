@@ -50,6 +50,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/apollo',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -60,6 +61,14 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/auth-next',
   ],
+  apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'https://excited-gnat-74.hasura.app/v1/graphql',
+      },
+    },
+  },
+
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {

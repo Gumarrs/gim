@@ -33,7 +33,7 @@
                 >
               </li>
             </ul>
-            <ul class="flex ml-auto items-center mt-2"  v-if="!this.$store.state.auth"> 
+            <ul class="flex ml-auto items-center mt-2"  v-if="!this.$store.state.auth.user"> 
               <li>
                 <nuxt-link
                   to="/login"

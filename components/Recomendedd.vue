@@ -24,7 +24,7 @@
           <p> 16:40</p>
         </div>
         <nuxt-link
-        :to="'/kelas/' + i">
+        :to="'/login'">
         <button class="mt-24 text-xl w-full text-white bg-green-button py-2 rounded-xl shadow-lg">Book</button>
         </nuxt-link>
 

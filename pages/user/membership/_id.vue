@@ -1,6 +1,6 @@
 <template>
 <div>
-    <Navbar2 />
+    <Header />
        <img class="image_kelas" src="/image11.png"/>
 </div>
 </template>

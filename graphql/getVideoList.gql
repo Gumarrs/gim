@@ -1,0 +1,7 @@
+query MyQuery {
+  video {
+    id
+    judul
+    video_url
+  }
+}
