@@ -155,7 +155,11 @@
 <script>
 export default{
   async asyncData({ $axios }) {
-    const kelass = await $axios.$get('/api/v1/class/list')
+    const kelass = await $axios.$get('/api/v1/class/list',{
+      params:{
+        limit : 3,
+      },
+    })
     const newsletters = await $axios.$get('/api/v1/newsletter/list')
     const memberships = await $axios.$get('/api/v1/membership/list')
     return { kelass,newsletters,memberships }
