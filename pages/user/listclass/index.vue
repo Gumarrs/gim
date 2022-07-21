@@ -1,7 +1,7 @@
 <template>
 
         <div>
-                <Navbar />
+                <Header />
         <div  class="mt-24 px-10">
             <h1 class="text-3xl py-6">Offline Class</h1>
             <p>Enjoy tons of free video-on-demand workouts from GYMTHIRTY. Find videos that match your preferences and goals!</p>

@@ -1,6 +1,6 @@
 <template>
 <div id="detailclass">
-             <Navbar />
+             <Header />
               <img class="image_kelas" src="/image11.png" />
           <!-- <img :src="default_image" class="image_kelas"/> -->
           <div class="relative bg-gray-100 rounded-tl-3xl rounded-tr-3xl" style="width: 100%; height: 836px;">
@@ -28,7 +28,7 @@
     </div>
     <button style="left: 120px; top: 460px;" class="absolute mt-24 text-xl text-white bg-green-button py-4 px-10 rounded-xl shadow-lg">Book Now</button>
 </div>
-       
+       <Footer />
 </div>
 </template>
 <script>

@@ -7,7 +7,7 @@
 
       <div class="flex justify-center items-center bg-white shadow-lg">
                 <div class="w-auto md:w-2/4 lg:w-2/3 flex justify-center items-center">
-          <form class="w-full lg:w-1/2 px-10 lg:px-0 ">
+          <div class="w-full lg:w-1/2 px-10 lg:px-0 ">
             <h2 class="font-normal mb-6 text-3xl mx-auto text-center ">
               Login
             </h2>
@@ -65,7 +65,7 @@
               </p>
             </div>
             
-          </form>
+          </div>
           
         </div>
       </div>

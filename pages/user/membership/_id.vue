@@ -1,6 +1,6 @@
 <template>
 <div>
-    <Navbar />
+    <Header />
        <img class="image_kelas" src="/image11.png"/>
        <div class="container flex flex-wrap pt-24 pb-10 bg-slate-100">
             <div class="mx-28">
@@ -11,15 +11,15 @@
                 <p class="font-medium  mb-4">{{member.data.description}}</p>
             </div>
        </div>
-       <nuxt-link
-           :to="`/user/transaksi/${member.data.id}`">
+       <a
+           href="https://simulator.sandbox.midtrans.com/bni/va/index">
                           <button
 
                 class="block bg-teal-300 border border-white   border text-center px-8 py-2 ml-24 mb-24 text-xl rounded-full "
               >
                 Join Membership
               </button>
-       </nuxt-link>
+       </a>
        <Footer/>
 
 </div>

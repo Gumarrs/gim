@@ -19,7 +19,7 @@
                 success.
               </p>
                             <button
-                @click="$router.push({ path: '/' })"
+                @click="$router.push({ path: 'user/membership/' })"
                 class="block bg-teal-300 border border-white   border hover:bg-transparent hover:bg-opacity-25 text-white  text-center px-8 py-2 text-xl rounded-full "
               >
                 Join Membership

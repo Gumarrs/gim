@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Navbar />
+        <Header />
  <div class="relative bg-gray-100" style="width: 1440px; height: 1163px;">
     <p class="absolute text-2xl font-semibold text-black" style="left: 1092px; top: 429px;">Recomendation</p>
     <div class="inline-flex flex-col space-y-1 items-start justify-start w-48 absolute bg-green-400 rounded" style="left: 1092px; top: 990px;">

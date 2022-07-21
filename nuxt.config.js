@@ -105,6 +105,9 @@ export default {
       lang: 'en',
     },
   },
+  vuetify: {
+    treeShake: true
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
