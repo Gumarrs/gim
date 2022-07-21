@@ -7,7 +7,7 @@
             <section id="form" class="pt-36 pb-30">
       <div class="flex justify-center items-center">
                 <div class="w-auto md:w-2/4 lg:w-2/3 flex justify-center items-center">
-          <div class="w-full lg:w-1/2 px-10 lg:px-0 ">
+          <form class="w-full lg:w-1/2 px-10 lg:px-0 ">
             <h2 class="font-normal mb-6 text-3xl mx-auto text-center ">
               Sign Up
             </h2>
@@ -21,6 +21,7 @@
                   class="auth-form "
                   placeholder="Enter username"
                   v-model="register.name"
+                  required
                 />
               </div>
             </div>
@@ -34,6 +35,7 @@
                   class="auth-form "
                   placeholder="Enter Email"
                    v-model="register.email"
+                    required
                 />
               </div>
             </div>
@@ -47,6 +49,7 @@
                   class="auth-form "
                   placeholder="Enter phone number"
                    v-model="register.phone"
+                    required
                 />
               </div>
             </div>
@@ -59,8 +62,10 @@
                   type="password"
                   class="auth-form "
                   placeholder="Enter your password"
+                  required
                    v-model="register.password"
                    @keyup.enter="userRegister"
+                    
                 />
               </div>
             </div>
@@ -82,7 +87,7 @@
                 >.
               </p>
             </div>
-          </div>
+          </form>
         </div>
       </div>
 
@@ -116,7 +121,7 @@ export default {
           alert('Akun Berhasil Di Daftarkan')
           .then(() => this.$router.push({ path: '/' }))
       } catch (err) {
-        alert(err)
+        alert("akun anda sudah didaftarkan")
         console.log(err)
       }
     },
